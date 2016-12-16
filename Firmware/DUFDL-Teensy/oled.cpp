@@ -1,8 +1,8 @@
 #include "oled.h"
-#include <i2c_t3.h>
+//#include <i2c_t3.h>
 #include "define.h"
-#include "SSD1306Wire.h"
-#include "OLEDDisplayUi.h" //https://github.com/squix78/esp8266-oled-ssd1306
+#include "SSD1306Wire.h"    //modified lib to support TEENSY from https://github.com/squix78/esp8266-oled-ssd1306
+#include "OLEDDisplayUi.h"  //modified lib to support TEENSY from https://github.com/squix78/esp8266-oled-ssd1306
 #include "font.h"
 #include "ui.h"
 #include "settings.h"
